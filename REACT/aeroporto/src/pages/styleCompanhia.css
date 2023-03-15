@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    overflow: hidden;
+}
+
+.header{
+    background-color: rgb(243, 165, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.app{
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.paginas{
+    font-size: 1.5rem;
+    color: rgb(171, 64, 185);
+}
+
+.homeInicial{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.aeroportoInicial{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.mainInicial{
+    position: relative;
+}
+
+.fundoInicial{
+    width: 90rem;
+    height: 40rem;
+    
+}
+
+.textoInicial{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    color: rgb(101, 5, 114);
+    font-size: 7rem;
+}
+
+
+/* companhia */
+
+
+.passageiro1{
+    padding: 1rem;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    color: rgb(167, 39, 135);
+}
+
+.passageiro2{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: rgb(167, 39, 135);
+}
+
+.paginas2-57{
+    box-shadow: 5px 5px 8px 5px rgb(204, 53, 154) ;
+    margin-top: 5rem;
+    margin-left: 27rem;
+    margin-bottom: 2rem;
+}
+
+.criar{
+    margin-left: 50rem;
+    background-color: rgb(223, 100, 206);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.ver{
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.excluir{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(216, 129, 144);
+    border: none;
+    font-size: 1rem;
+}
+.editar{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(216, 129, 144);
+    border: none;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+
+.bordaUsu{
+    margin-top: 5rem;
+    margin-left: 35rem;
+}
+
+.codigoUsu{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: rgb(167, 39, 135);
+    margin-bottom: 1rem;
+    align-items: center;
+    text-align: center;
+}
+.nomeUsu{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: rgb(167, 39, 135);
+    margin-bottom: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-right: 0.8rem;
+}
